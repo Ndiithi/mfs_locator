@@ -2,8 +2,11 @@ from django.contrib.auth.models import User, Group
 from rest_framework import viewsets
 from rest_framework import permissions
 from mfs_locator.serializers import UserSerializer, GroupSerializer,LocatorSerializer
-
 from locator.models import Locator
+
+import logging
+
+logger = logging.getLogger('django')
 
 class UserViewSet(viewsets.ModelViewSet):
     """
