@@ -38,6 +38,7 @@ then we get the minimum scoring in the matrix.
 
 * git clone https://github.com/Ndiithi/mfs_locator.git
 
+* install dev libs:  sudo apt install libpq-dev python3-dev (debian distros)
 
 ### Installation
 
@@ -70,8 +71,14 @@ then we get the minimum scoring in the matrix.
    ```sh
    python manage.py migrate
    ```
-   
-7. Run the app
+
+7. Set up new user
+   ```sh
+   python manage.py createsuperuser --email admin@example.com --username admin
+
+   ```
+
+8. Run the app
    ```sh
    python manage.py runserver
 
