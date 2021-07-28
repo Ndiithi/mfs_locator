@@ -23,7 +23,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-The mfs_locator is an spacial implementation resolving the Euclidean distance between several points. In this project, given a list of coordinates, we get two pairs of 
+The mfs_locator is a spacial implementation resolving the Euclidean distance between several points. In this project, given a list of coordinates, we get two pairs of 
 coordinates that are close to one another.
 
 The Algorithm implemented removes any duplicates in the list supplied to process the residule. The implementation is that, to get the two nearest pairs we compute the distance matrix, 
